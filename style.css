@@ -1,0 +1,922 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: rgb(16, 20, 30);
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  border-radius: 8px;
+  background: rgb(22, 29, 47);
+  margin: 32px;
+  display: inline-block;
+  position: fixed;
+  min-height: auto;
+}
+
+header nav {
+  text-align: center;
+}
+
+header .navbar_img {
+  margin: 32.5px 20px 63px 20px;
+}
+
+header #navbar_bookmark_img {
+  margin-bottom: 50px;
+}
+
+header #navbar_Profile_img {
+  padding: 10px;
+}
+
+header .navbar_home:active {
+  background: white;
+  opacity: 80;
+  border-radius: 4px;
+}
+
+header .navbar_icons {
+  margin-bottom: 30px;
+}
+
+header .navbar_home_img:hover {
+  background: white;
+  border-radius: 4px;
+  opacity: 80%;
+  transition: all ease 0.1ms;
+}
+
+header #navbar_login_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+header .fa-bookmark {
+  color: rgb(87, 106, 146);
+  font-size: larger;
+}
+
+header .fa-bookmark:hover {
+  color: white;
+}
+
+/* ----------------------------------------main_content----------------------------------------------------------------- */
+
+main {
+  margin: 0px auto auto 170px;
+}
+
+main #searchbar {
+  padding-top: 70px;
+  margin: 0px auto 40px auto;
+  position: sticky;
+  top: 0px;
+  background-color: rgb(16, 20, 30);
+}
+
+main .fa-magnifying-glass {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+main input {
+  margin-left: 10px;
+  font-size: 22px;
+  outline: none;
+  background-color: rgb(16, 20, 30);
+  padding-bottom: 10px;
+  border: 0;
+  color: white;
+  width: 320px;
+}
+
+main input:hover {
+  border-bottom: 1px solid white;
+}
+
+/* ---------------------------------------------trending---------------------------------------------------- */
+
+main .carousel div {
+  display: inline-block;
+}
+
+main .image1 {
+  width: 350px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+main h1 {
+  color: white;
+  margin: 20px 0px;
+  font-weight: lighter;
+}
+
+main .bookmark_icon {
+  background: rgb(89, 96, 115);
+  padding: 6px 7px 4px 7px;
+  border-radius: 50%;
+  color: white;
+  font-size: small;
+  margin-left: 305px;
+  position: relative;
+  top: -170px;
+}
+
+main h5 {
+  color: rgb(89, 96, 115);
+  margin-top: -50px;
+  margin-left: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+main h3 {
+  color: white;
+  margin-left: 20px;
+  font-size: medium;
+}
+
+/* -------------------------------------------recommended------------------------------------------------------------ */
+
+/* main .heading2 {
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+.container {
+  min-height: 100vh;
+  margin-left: -18px;
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "a b c d"
+    "e f g h";
+}
+
+.cell {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 150px;
+
+  margin-top: 30px;
+}
+
+.cell-1 {
+  grid-area: a;
+}
+
+.cell-2 {
+  grid-area: b;
+}
+
+.cell-3 {
+  grid-area: c;
+}
+
+.cell-4 {
+  grid-area: d;
+}
+
+.cell-5 {
+  grid-area: e;
+}
+
+.cell-6 {
+  grid-area: f;
+}
+
+.cell-7 {
+  grid-area: g;
+}
+
+.cell-8 {
+  grid-area: h;
+}
+
+main .container .re-img {
+  width: 250px;
+  border-radius: 8px;
+}
+
+main .recommended_icon {
+  margin-top: -190px;
+  margin-left: 200px;
+  opacity: 65%;
+}
+
+main .recommended_icon .fa-bookmark {
+  color: white;
+  font-size: x-small;
+  padding: 7px 7px 6px 7px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+main .container .title2 {
+  margin-left: -100px;
+  margin-top: 10px;
+}
+
+main .container .title1b {
+  text-transform: capitalize;
+  margin-left: -140px;
+  font-size: medium;
+} */
+
+/* bookmarked1------------------------------------------------------------------------ */
+
+/* main .heading2 {
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+.container1 {
+  margin-left: -18px;
+  min-height: 50vh;
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "a b c d"
+    "e f g h"
+    "i 0 0 0";
+}
+
+.cell {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 150px;
+  margin-top: 30px;
+}
+
+.cell-1 {
+  grid-area: a;
+}
+
+.cell-2 {
+  grid-area: b;
+}
+
+.cell-3 {
+  grid-area: c;
+}
+
+.cell-4 {
+  grid-area: d;
+}
+
+.cell-5 {
+  grid-area: e;
+}
+
+.cell-6 {
+  grid-area: f;
+}
+
+.cell-7 {
+  grid-area: g;
+}
+
+.cell-8 {
+  grid-area: h;
+}
+
+.cell-9 {
+  grid-area: i;
+}
+
+main .container1 .re-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  border-radius: 8px;
+}
+
+main .container1 .recommended_icon .fa-bookmark {
+  color: white;
+  font-size: x-small;
+  padding: 7px 7px 6px 7px;
+  background-color: black;
+  border-radius: 50%;
+  opacity: 70%;
+}
+
+main .container1 .title2 {
+  margin-left: -90px;
+  margin-top: 10px;
+}
+
+main .container1 .title1b {
+  text-transform: capitalize;
+  margin-left: -130px;
+  font-size: medium;
+} */
+
+main .carousel0 {
+  margin-left: 40px;
+  margin-left: 0px;
+}
+
+main .carousel0 div {
+  display: inline-block;
+  min-width: auto;
+}
+
+main .carousel0 .image1 {
+  width: 270px;
+  height: 160px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+}
+
+main .carousel0 h1 {
+  color: white;
+  margin: 20px 0px;
+  font-weight: lighter;
+}
+
+main .carousel0 .bookmark_icon {
+  background: rgb(89, 96, 115);
+  padding: 6px 7px 4px 7px;
+  border-radius: 50%;
+  color: white;
+  font-size: small;
+  margin-left: 230px;
+  position: relative;
+  top: -185px;
+}
+main .carousel0 .bookmark_icon:hover {
+  color: black;
+}
+
+main .carousel0 h5 {
+  color: rgb(89, 96, 115);
+  margin-top: -50px;
+  margin-left: 2px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  font-size: x-small;
+}
+
+main .carousel0 h3 {
+  color: rgb(242, 228, 187) e;
+  margin-left: 2px;
+  font-weight: 100;
+  font-size: 13px;
+}
+
+/* bookmarked2------------------------------------------------------------------------ */
+
+main .heading3 {
+  margin: 50px 0px 30px 0px;
+}
+
+main .carousel1 div {
+  display: inline-block;
+}
+
+main .carousel1 .image1 {
+  width: 210px;
+  height: 135px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin-right: 18px;
+}
+
+main .carousel1 h1 {
+  color: white;
+  margin: 20px 0px;
+  font-weight: lighter;
+}
+
+main .carousel1 .bookmark_icon {
+  background: rgb(89, 96, 115);
+  padding: 6px 7px 4px 7px;
+  border-radius: 50%;
+  color: white;
+  font-size: small;
+  margin-left: 170px;
+  position: relative;
+  top: -170px;
+}
+
+main .carousel1 h5 {
+  color: rgb(89, 96, 115);
+  margin-top: 15px;
+  margin-left: 5px;
+  font-size: x-small;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+main .carousel1 h3 {
+  color: white;
+  margin-left: 5px;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+/* media quries------------------------------------------------------------------------------------ */
+
+@media screen and (min-width: 70px) and (max-width: 290px) {
+  body {
+    font-family: sans-serif;
+    background: rgb(16, 20, 30);
+    flex-wrap: wrap;
+  }
+
+  header {
+    border-radius: 0px;
+    background: rgb(22, 29, 47);
+    margin: 0px;
+    display: block;
+    position: fixed;
+    top: 0;
+    min-height: auto;
+  }
+
+  header nav {
+    background: rgb(22, 29, 47);
+    padding: 0px 0px 0px 0px;
+    position: fixed;
+    text-align: center;
+  }
+
+  header ul,
+  li {
+    display: inline-block;
+  }
+
+  header .navbar_img {
+    margin: 0px 10px 0px 10px;
+  }
+
+  header #navbar_bookmark_img {
+    margin-bottom: 0px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+  }
+
+  header #navbar_Profile_img {
+    margin-top: 0px;
+    padding: 0px;
+    margin: 20px 25px 10px 60px;
+  }
+
+  header .navbar_home:active {
+    background: white;
+    opacity: 80;
+    border-radius: 4px;
+  }
+
+  header .navbar_icons {
+    margin-bottom: 0px;
+    margin: 0px 0px 20px 5px;
+  }
+
+  header .navbar_home_img:hover {
+    background: white;
+    border-radius: 4px;
+    opacity: 80%;
+    transition: all ease 0.1ms;
+  }
+
+  header #navbar_login_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+  }
+
+  header .fa-bookmark {
+    color: rgb(87, 106, 146);
+    font-size: larger;
+    margin: 0px 0px 0px 20px;
+  }
+
+  header .fa-bookmark:hover {
+    color: white;
+  }
+
+  /* -------------------------------------------------searchbar----------------------------------- */
+
+  main {
+    margin: 0px auto auto 0px;
+  }
+
+  main #searchbar {
+    padding-top: 20px;
+    margin: 100px auto 0px auto;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(16, 20, 30);
+  }
+
+  main .fa-magnifying-glass {
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    position: absolute;
+    top: 20px;
+  }
+
+  main input {
+    margin-left: 30px;
+    margin-top: 0px;
+    font-size: 17px;
+    outline: none;
+    background-color: rgb(16, 20, 30);
+    padding-bottom: 10px;
+    border: 0;
+    color: white;
+    width: 250px;
+  }
+
+  main input:hover {
+    border-bottom: 1px solid white;
+  }
+
+  /* ---------------------main trending--------------- */
+
+  main .carousel div {
+    display: inline-block;
+    margin-left: 3px;
+  }
+
+  main #min-width {
+    margin-top: 100px;
+  }
+
+  main .image1 {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-right: 40px;
+  }
+
+  main h1 {
+    color: white;
+    margin: 20px 0px;
+    font-weight: lighter;
+  }
+
+  main .bookmark_icon {
+    background: rgb(89, 96, 115);
+    padding: 6px 7px 4px 7px;
+    border-radius: 50%;
+    color: white;
+    font-size: small;
+    margin-left: 210px;
+    position: relative;
+    top: -125px;
+  }
+
+  main h5 {
+    color: rgb(89, 96, 115);
+    margin-top: -50px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+  }
+
+  main h3 {
+    color: white;
+    margin-left: 20px;
+    font-size: medium;
+  }
+
+  /* recommended------------------------------ */
+
+  main .carousel0 {
+    margin-left: 20px;
+    margin-left: 0px;
+    position: absolute;
+    left: 30px;
+  }
+
+  main .carousel0 div {
+    display: inline-block;
+    min-width: auto;
+  }
+
+  main .carousel0 .image1 {
+    width: 200px;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+  }
+
+  main .carousel0 h1 {
+    color: white;
+    margin: 20px 0px;
+    font-weight: lighter;
+  }
+
+  main .carousel0 .bookmark_icon {
+    background: rgb(89, 96, 115);
+    padding: 6px 7px 4px 7px;
+    border-radius: 50%;
+    color: white;
+    font-size: small;
+    margin-left: 165px;
+    position: relative;
+    top: -160px;
+  }
+  main .carousel0 .bookmark_icon:hover {
+    color: black;
+  }
+
+  main .carousel0 h5 {
+    color: rgb(89, 96, 115);
+    margin-top: -50px;
+    margin-left: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-size: x-small;
+  }
+
+  main .carousel0 h3 {
+    color: rgb(242, 228, 187) e;
+    margin-left: 2px;
+    font-weight: 100;
+    font-size: 13px;
+  }
+}
+
+/* media queries2---------------------- */
+@media screen and (min-width: 291px) and (max-width: 680px) {
+  body {
+    font-family: sans-serif;
+    background: rgb(16, 20, 30);
+    flex-wrap: wrap;
+  }
+
+  header {
+    border-radius: 0px;
+    background: rgb(22, 29, 47);
+    margin: 0px;
+    display: block;
+    position: fixed;
+    top: 0;
+    min-height: auto;
+  }
+
+  header nav {
+    background: rgb(22, 29, 47);
+    padding: 0px 0px 0px 0px;
+    position: fixed;
+    text-align: center;
+  }
+
+  header ul,
+  li {
+    display: inline-block;
+  }
+
+  header .navbar_img {
+    margin: 0px 0px 0px 1px;
+    padding: 20px 20px;
+  }
+
+  header #navbar_bookmark_img {
+    margin-bottom: 0px;
+    position: none;
+    top: 0px;
+    left: 0px;
+  }
+
+  header #navbar_Profile_img {
+    margin-top: 0px;
+    padding: 0px 28px;
+    margin: 10px 10px 10px 225px;
+  }
+
+  header .navbar_home:active {
+    background: white;
+    opacity: 80;
+    border-radius: 4px;
+  }
+
+  header .navbar_icons {
+    margin-bottom: 0px;
+    margin: 0px 20px 20px 0px;
+    padding: 0px 10px;
+  }
+
+  header .navbar_home_img:hover {
+    background: white;
+    border-radius: 4px;
+    opacity: 80%;
+    transition: all ease 0.1ms;
+  }
+
+  header #navbar_login_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+  }
+
+  header .fa-bookmark {
+    color: rgb(87, 106, 146);
+    font-size: larger;
+    margin: 0px 0px 0px 0px;
+  }
+
+  header .fa-bookmark:hover {
+    color: white;
+  }
+
+  /* -------------------------------------------------searchbar----------------------------------- */
+
+  main {
+    margin: 0px auto auto 0px;
+  }
+
+  main #searchbar {
+    padding-top: 20px;
+    margin: 94px auto 0px auto;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(16, 20, 30);
+  }
+
+  main .fa-magnifying-glass {
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 25px;
+    position: absolute;
+    top: 20px;
+  }
+
+  main input {
+    margin-left: 60px;
+    margin-top: 0px;
+    font-size: 22px;
+    outline: none;
+    background-color: rgb(16, 20, 30);
+    padding-bottom: 10px;
+    border: 0;
+    color: white;
+    width: 500px;
+  }
+
+  main input:hover {
+    border-bottom: 1px solid white;
+  }
+
+  /* ---------------------main trending--------------- */
+
+  main .carousel div {
+    display: inline-block;
+    margin-left: 13px;
+  }
+
+  main .main-heading {
+    margin-top: 150px;
+    margin-left: 20px;
+  }
+
+  main #min-width {
+    margin-top: 0px;
+  }
+
+  main .image1 {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-right: 40px;
+  }
+
+  main h1 {
+    color: white;
+    margin: 20px 0px;
+    font-weight: lighter;
+  }
+
+  main .bookmark_icon {
+    background: rgb(89, 96, 115);
+    padding: 6px 7px 4px 7px;
+    border-radius: 50%;
+    color: white;
+    font-size: small;
+    margin-left: 280px;
+    position: relative;
+    top: -80px;
+  }
+
+  main h5 {
+    color: rgb(89, 96, 115);
+    margin-top: -40px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    font-size: x-small;
+  }
+
+  main h3 {
+    color: white;
+    margin-left: 10px;
+    font-size: xx-small;
+  }
+
+  /* recommended------------------------------ */
+
+  main .carousel0 {
+    margin-left: 20px;
+    margin-left: 0px;
+    position: absolute;
+    left: 30px;
+  }
+
+  main .heading2 {
+    margin-left: 30px;
+  }
+
+  main .carousel0 div {
+    display: inline-block;
+    min-width: auto;
+  }
+
+  main .carousel0 .image1 {
+    width: 200px;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-right: 0px;
+    margin-bottom: 60px;
+  }
+
+  main .carousel0 h1 {
+    color: white;
+    margin: 20px 0px;
+    font-weight: lighter;
+  }
+
+  main .carousel0 .bookmark_icon {
+    background: rgb(89, 96, 115);
+    padding: 6px 7px 4px 7px;
+    border-radius: 50%;
+    color: white;
+    font-size: small;
+    margin-left: 165px;
+    position: relative;
+    top: -160px;
+  }
+  main .carousel0 .bookmark_icon:hover {
+    color: black;
+  }
+
+  main .carousel0 h5 {
+    color: rgb(89, 96, 115);
+    margin-top: -50px;
+    margin-left: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-size: x-small;
+  }
+
+  main .carousel0 h3 {
+    color: rgb(242, 228, 187) e;
+    margin-left: 2px;
+    font-weight: 100;
+    font-size: 13px;
+  }
+}
