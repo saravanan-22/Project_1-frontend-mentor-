@@ -41,7 +41,8 @@ header #navbar_bookmark_img {
 }
 
 header #navbar_Profile_img {
-  padding: 10px;
+  padding: 10px 0px;
+  padding-top: 130px;
 }
 
 header .navbar_home:active {
